@@ -1,0 +1,58 @@
+body {
+    background-color: #30E3CA;
+}
+
+body * {
+    color: #40514E;
+}
+
+.content { 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-nav {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 30px;
+    flex-direction: row;
+}
+
+.button {
+    list-style-type: none;
+    padding: 10px 32px;
+    font-size: 14px;
+    border-radius: 5px;
+    font-family: 'Noto Sans', sans-serif;
+    transition: all 0.5 ease-out;
+    margin: 10px 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: white;
+    opacity: 0.5;
+}
+
+form > * {    
+    display: block;
+    margin: 10px;
+    width: 250px;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+}
+
+#btnLogin {
+    margin: auto;
+    background-color: #ee0a65;
+    cursor: pointer;
+}
+
+#btnLogin:hover {
+    opacity: 0.7;
+}
